@@ -1,5 +1,5 @@
 import { extend } from 'flarum/common/extend';
-import app from 'flarum/common/app';
+import app from 'flarum/forum/app';
 import TextEditor from 'flarum/common/components/TextEditor';
 import TextEditorButton from 'flarum/common/components/TextEditorButton';
 import insertAtCursor from './BBCode';
