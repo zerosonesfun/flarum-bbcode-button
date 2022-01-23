@@ -22,7 +22,7 @@ php flarum cache:clear
 
 ## Uninstall
 
-Deactivate, tap the uninstall button, then run this composer command:
+Deactivate, tap the purge button (cleans up your database), then run this composer command:
 
 ```sh
 composer remove zerosonesfun/flarum-bbcode-button:"*"
