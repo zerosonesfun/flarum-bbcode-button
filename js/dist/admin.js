@@ -115,22 +115,38 @@ __webpack_require__.r(__webpack_exports__);
 
 flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add("zerosonesfun/flarum-bbcode-button", function () {
   flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.extensionData["for"]("zerosonesfun-bbcode-button").registerSetting({
+    setting: "zerosonesfun-bbcode-button.intro",
+    name: "zerosonesfun-bbcode-button.intro",
+    type: "text",
+    help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.introdesc"),
+    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.introlabel")
+  }, 3);
+  flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.extensionData["for"]("zerosonesfun-bbcode-button").registerSetting({
     setting: "zerosonesfun-bbcode-button.code",
     name: "zerosonesfun-bbcode-button.code",
     type: "text",
     placeholder: "[bbcode][/bbcode]",
     help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.codedesc"),
     label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.codelabel")
-  }, 15);
+  }, 2);
   flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.extensionData["for"]("zerosonesfun-bbcode-button").registerSetting({
     setting: "zerosonesfun-bbcode-button.pos",
     name: "zerosonesfun-bbcode-button.pos",
     type: "number",
-    value: "8",
-    placeholder: "8",
+    value: "4",
+    placeholder: "4",
     help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.posdesc"),
     label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.poslabel")
-  }, 15);
+  }, 0);
+  flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.extensionData["for"]("zerosonesfun-bbcode-button").registerSetting({
+    setting: "zerosonesfun-bbcode-button.icon",
+    name: "zerosonesfun-bbcode-button.icon",
+    type: "text",
+    value: "fas fa-font",
+    placeholder: "fas fa-font",
+    help: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.icondesc"),
+    label: flarum_admin_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans("flarum-bbcode-button.admin.settings.iconlabel")
+  }, 1);
 });
 
 /***/ }),

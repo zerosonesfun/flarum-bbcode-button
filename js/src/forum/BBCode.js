@@ -26,7 +26,7 @@ export default function insertAtCursor() {
             let pos = input.selectionStart
             let front = (input.value).substring(0, pos);  
             let back = (input.value).substring(pos, input.value.length); 
-            let middle = "[][/]"
+            let middle = "[][/]";
             
             input.value = front+middle+back;
             pos = pos + 1;
@@ -36,6 +36,5 @@ export default function insertAtCursor() {
               input.focus();
           
             })()
-
     }
 }

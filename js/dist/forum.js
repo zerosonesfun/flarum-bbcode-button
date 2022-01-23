@@ -995,7 +995,7 @@ flarum_forum_app__WEBPACK_IMPORTED_MODULE_1___default.a.initializers.add('zeroso
       onclick: function onclick() {
         return Object(_BBCode__WEBPACK_IMPORTED_MODULE_4__["default"])();
       },
-      icon: "fas fa-magic"
+      icon: flarum_forum_app__WEBPACK_IMPORTED_MODULE_1___default.a.forum.attribute('zerosonesfun-bbcode-button.icon')
     }, flarum_forum_app__WEBPACK_IMPORTED_MODULE_1___default.a.translator.trans('flarum-bbcode-button.forum.composer.bbcode_tooltip')));
   });
 });
